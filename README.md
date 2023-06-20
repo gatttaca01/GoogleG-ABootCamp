@@ -6,12 +6,13 @@ Takım Flutter 135
 - Zehra Kaya : Developer
 - Salih Naci : Developer
 - Betül Albayrak : aktif olmayan üye
+  
 # Ürün İsmi
 fEATbody 
 
 ## Product Backlog URL
 
-[Flutter Team 86 Miro Backlog Board]([[https://miro.com/app/board/uXjVO4kRs2w=/](https://miro.com/app/board/uXjVM91uftI=/)](https://miro.com/app/board/uXjVM8hacc8=/))
+[Flutter Team 135 Miro Backlog Board]([[https://miro.com/app/board/uXjVO4kRs2w=/](https://miro.com/app/board/uXjVM91uftI=/)](https://miro.com/app/board/uXjVM8hacc8=/))
 
 ## Ürün Açıklaması
 fEATbody, sağlıklı bir yaşam tarzını benimsemek isteyenlere yönelik bir fitness ve beslenme uygulamasıdır. Bu kullanıcı dostu uygulama, kullanıcıların egzersiz yapma ve sağlıklı beslenme alışkanlıklarını takip etmelerine yardımcı olur. fEATbody , kullanıcıların hedeflerine ulaşmalarına, ilerlemelerini izlemelerine ve kendilerini daha sağlıklı bir yaşam tarzına adanmış hissetmelerine yardımcı olmak için tasarlanmıştır.
@@ -21,9 +22,6 @@ fEATbody, sağlıklı bir yaşam tarzını benimsemek isteyenlere yönelik bir f
 
 ## Ürün Özellikleri
 
-- Kilo, boy girilmesi ardından BMI oranının verilmesi
-- HEdeflediği bölge seçiminden sonra aktivitelerin önerilmesi
-- Günlük olarak aktivitelerin sıralanması
 - Kişi önce sisteme girer sonra soruları cevaplar daha sonra cevaplanan sorular uzmanlara gönderilir, uzmanlar sorulan sorulara göre diyet ve egzersiz programı hazırlar kullanıcıya gönderir. Kullanıcı programın sonuçlarından geri dönüt almak için (ölçümleri) uzmanlarla görüşebilir. Randevu alması koşuluyla da  uzmanlarla randevu zamanında konuşabilir.
 
 ## Hedef Kitle
