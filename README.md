@@ -47,7 +47,9 @@ fEATbody, sağlıklı bir yaşam tarzını benimsemek isteyenlere yönelik bir f
 
 - **Daily Scrum**: Daily Scrum toplantıları whatsapp kanalı üzerinden yapılmıştır. Herkes kendi free zamanına göre çalıştığından mesajlaşarak da birbirimizden günlük haberdar olduk. (https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/Sprint%201%20-F135.png)
 
-- **Sprint board update**: Sprint board screenshotları: 
+- **Sprint board update**: Sprint board screenshotları: (https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.07%20(1).jpeg
+https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.07.jpeg
+https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.08.jpeg)
 
 
 - **Sprint Review**: 
