@@ -45,7 +45,7 @@ fEATbody, sağlıklı bir yaşam tarzını benimsemek isteyenlere yönelik bir f
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 
 
-- **Daily Scrum**: Daily Scrum toplantıları whatsapp kanalı üzerinden yapılmıştır. Herkes kendi free zamanına göre çalıştığından mesajlaşarak da birbirimizden günlük haberdar olduk. 
+- **Daily Scrum**: Daily Scrum toplantıları whatsapp kanalı üzerinden yapılmıştır. Herkes kendi free zamanına göre çalıştığından mesajlaşarak da birbirimizden günlük haberdar olduk. (https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/Sprint%201%20-F135.png)
 
 - **Sprint board update**: Sprint board screenshotları: 
 
