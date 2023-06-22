@@ -45,11 +45,16 @@ fEATbody, sağlıklı bir yaşam tarzını benimsemek isteyenlere yönelik bir f
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 
 
-- **Daily Scrum**: Daily Scrum toplantıları whatsapp kanalı üzerinden yapılmıştır. Herkes kendi free zamanına göre çalıştığından mesajlaşarak da birbirimizden günlük haberdar olduk. (https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/Sprint%201%20-F135.png)
+- **Daily Scrum**: Daily Scrum toplantıları whatsapp kanalı üzerinden yapılmıştır. Herkes kendi free zamanına göre çalıştığından mesajlaşarak da birbirimizden günlük haberdar olduk. (https://github.com/gatttaca01/GoogleG-ABootCamp/tree/main/Project%20Management/Sprint%201%20Documents/Daily%20scrum) 
 
-- **Sprint board update**: Sprint board screenshotları: (https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.07%20(1).jpeg
+
+- **Sprint board update**: (https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/Sprint%201%20-F135.png)
+
+- ** Ürün Durumu**:
+(Sprint board screenshotları: (https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.07%20(1).jpeg
 https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.07.jpeg
 https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.08.jpeg)
+
 
 
 - **Sprint Review**: 
