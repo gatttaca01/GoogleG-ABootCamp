@@ -38,6 +38,7 @@ fEATbody, sağlıklı bir yaşam tarzını benimsemek isteyenlere yönelik bir f
 ---
 
 # Sprint 1
+**Sprint Notları:** Kullanıcı bilgilerini alabilecek product backlog'ların içine yazılmıştır. Product backlog item'lara tıklandığında kullanıcı giriş yapabilir.
 
 - **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
