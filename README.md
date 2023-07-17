@@ -67,7 +67,69 @@ Alınan kararlar: Kullanıcı giriş sayfasında hangi bileşenlerin olacağı, 
   - Uygulama çıkış aşamaları değerlendirilmiştir.
   - Sınav haftası olması sebebiyle proje aşamaları tam netleşmemiştir.
  
- 
+ -----
+
+ ---
+
+# Sprint 2
+**Sprint Notları:** Product backlog item tamamlandı, açılış sayfası butonları oluşturuldu, UI tasarımı ve içerik bilgisine karar verildi.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
 
 
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprintten 100, ikinci 100, son olarak da 140 puan alınarak tamamlanmasına karar verildi.
+
+
+- **Daily Scrum**: Daily Scrum toplantıları whatsapp kanalı üzerinden yapılmıştır. Herkes kendi free zamanına göre çalıştığından mesajlaşarak da birbirimizden haberdar olduk. Ekip üyelerinden aktif olmayan kişiler oldu. Uyarılar yapıldı. (https://github.com/gatttaca01/GoogleG-ABootCamp/tree/main/Project%20Management/Sprint%201%20Documents/Daily%20scrum) 
+
+
+- **Sprint board update**: (https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/Sprint%201%20-F135.png)
+
+- ** Ürün Durumu**:
+(Sprint board screenshotları: (https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.07%20(1).jpeg
+https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.07.jpeg
+https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.08.jpeg)
+
+
+
+- **Sprint Review**: 
+Alınan kararlar: Kullanıcı giriş sayfasında hangi bileşenlerin olacağı, nasıl hizmet verileceği ve giriş sayfası, home ve alt kategorileri içeren sayfaların UI tasarımları planlanmıştır.  Sprint Review katılımcıları: Zehra Kaya ve Salih Naci
+
+- **Sprint Retrospective:**
+  - Roller ile ilgili düzenleme yapılmış, scrum master belirlenmiştir.
+  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılmıştır. Uygun takvim belirlenmiştir.
+  - Uygulama çıkış aşamaları değerlendirilmiştir.
+  - Sınav haftası olması sebebiyle proje aşamaları tam netleşmemiştir.
+
+ ---
+
+# Sprint 3
+**Sprint Notları:** Arayüz kodlamaları yapıldı. Firebase ve kod birleştirilmesi yapıldı. Uygulama açılır aşamaya getirildi.
+
+- **Sprint içinde tamamlanması tahmin edilen puan**: 140 Puan
+
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprintten 100, ikinci 100, son olarak da 140 puan alınarak tamamlanmasına karar verildi.
+
+
+- **Daily Scrum**: Daily Scrum toplantıları whatsapp kanalı üzerinden yapılmıştır. Herkes kendi free zamanına göre çalıştığından mesajlaşarak da birbirimizden  haberdar olduk. Ekip üyelerinden aktif olmayan kişiler oldu. Uyarılar yapıldı. (https://github.com/gatttaca01/GoogleG-ABootCamp/tree/main/Project%20Management/Sprint%201%20Documents/Daily%20scrum) 
+
+
+- **Sprint board update**: (https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/Sprint%201%20-F135.png)
+
+- ** Ürün Durumu**:
+(Sprint board screenshotları: (https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.07%20(1).jpeg
+https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.07.jpeg
+https://github.com/gatttaca01/GoogleG-ABootCamp/blob/main/WhatsApp%20Image%202023-06-22%20at%2008.46.08.jpeg)
+
+
+
+- **Sprint Review**: 
+Alınan kararlar: Kullanıcı giriş sayfasında hangi bileşenlerin olacağı, nasıl hizmet verileceği ve giriş sayfası, home ve alt kategorileri içeren sayfaların UI tasarımları planlanmıştır.  Sprint Review katılımcıları: Zehra Kaya ve Salih Naci
+
+- **Sprint Retrospective:**
+  - Roller ile ilgili düzenleme yapılmış, scrum master belirlenmiştir.
+  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılmıştır. Uygun takvim belirlenmiştir.
+  - Uygulama çıkış aşamaları değerlendirilmiştir.
+  - Sınav haftası olması sebebiyle proje aşamaları tam netleşmemiştir.
 
