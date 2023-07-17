@@ -1,0 +1,305 @@
+class Sayfa2Widget extends StatefulWidget {
+  const Sayfa2Widget({Key? key}) : super(key: key);
+
+  @override
+  _Sayfa2WidgetState createState() => _Sayfa2WidgetState();
+}
+
+class _Sayfa2WidgetState extends State<Sayfa2Widget> {
+  late Sayfa2Model _model;
+
+  final scaffoldKey = GlobalKey<ScaffoldState>();
+
+  @override
+  void initState() {
+    super.initState();
+    _model = createModel(context, () => Sayfa2Model());
+
+    _model.textController1 ??= TextEditingController();
+    _model.textController2 ??= TextEditingController();
+    _model.textController3 ??= TextEditingController();
+  }
+
+  @override
+  void dispose() {
+    _model.dispose();
+
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () => FocusScope.of(context).requestFocus(_model.unfocusNode),
+      child: Scaffold(
+        key: scaffoldKey,
+        backgroundColor: Color(0xFF001006),
+        appBar: AppBar(
+          backgroundColor: FlutterFlowTheme.of(context).primary,
+          automaticallyImplyLeading: false,
+          leading: FlutterFlowIconButton(
+            borderColor: Colors.transparent,
+            borderRadius: 30,
+            borderWidth: 1,
+            buttonSize: 60,
+            icon: Icon(
+              Icons.arrow_back_rounded,
+              color: FlutterFlowTheme.of(context).gray600,
+              size: 30,
+            ),
+            onPressed: () async {
+              context.pushNamed(
+                'sayfa1',
+                extra: <String, dynamic>{
+                  kTransitionInfoKey: TransitionInfo(
+                    hasTransition: true,
+                    transitionType: PageTransitionType.leftToRight,
+                    duration: Duration(milliseconds: 220),
+                  ),
+                },
+              );
+            },
+          ),
+          title: Text(
+            'Vücudumuzu Tanıyalım',
+            style: FlutterFlowTheme.of(context).headlineMedium.override(
+                  fontFamily: 'Outfit',
+                  color: FlutterFlowTheme.of(context).black600,
+                  fontSize: 22,
+                ),
+          ),
+          actions: [],
+          centerTitle: true,
+          elevation: 2,
+        ),
+        body: SafeArea(
+          top: true,
+          child: Column(
+            mainAxisSize: MainAxisSize.max,
+            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            children: [
+              Align(
+                alignment: AlignmentDirectional(-1, 0),
+                child: FlutterFlowChoiceChips(
+                  options: [
+                    ChipData('Erkek', Icons.man),
+                    ChipData('Kız', Icons.woman_2_rounded)
+                  ],
+                  onChanged: (val) =>
+                      setState(() => _model.choiceChipsValue = val?.first),
+                  selectedChipStyle: ChipStyle(
+                    backgroundColor: Color(0xFF00F136),
+                    textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
+                          fontFamily: 'Outfit',
+                          color: FlutterFlowTheme.of(context).primaryText,
+                        ),
+                    iconColor: Colors.black,
+                    iconSize: 18,
+                    elevation: 4,
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  unselectedChipStyle: ChipStyle(
+                    backgroundColor: Color(0xFF5D5A5A),
+                    textStyle: FlutterFlowTheme.of(context).bodyMedium.override(
+                          fontFamily: 'Outfit',
+                          color: FlutterFlowTheme.of(context).secondaryText,
+                        ),
+                    iconColor: Color(0xFF302D2D),
+                    iconSize: 18,
+                    elevation: 0,
+                    borderColor: Colors.black,
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  chipSpacing: 12,
+                  rowSpacing: 12,
+                  multiselect: false,
+                  alignment: WrapAlignment.start,
+                  controller: _model.choiceChipsValueController ??=
+                      FormFieldController<List<String>>(
+                    [],
+                  ),
+                ),
+              ),
+              Padding(
+                padding: EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
+                child: TextFormField(
+                  controller: _model.textController1,
+                  autofocus: true,
+                  obscureText: false,
+                  decoration: InputDecoration(
+                    labelText: 'Kilonuzu girin...',
+                    labelStyle: FlutterFlowTheme.of(context).titleMedium,
+                    hintStyle: FlutterFlowTheme.of(context).labelMedium,
+                    enabledBorder: UnderlineInputBorder(
+                      borderSide: BorderSide(
+                        color: FlutterFlowTheme.of(context).alternate,
+                        width: 2,
+                      ),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    focusedBorder: UnderlineInputBorder(
+                      borderSide: BorderSide(
+                        color: FlutterFlowTheme.of(context).primary,
+                        width: 2,
+                      ),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    errorBorder: UnderlineInputBorder(
+                      borderSide: BorderSide(
+                        color: FlutterFlowTheme.of(context).error,
+                        width: 2,
+                      ),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    focusedErrorBorder: UnderlineInputBorder(
+                      borderSide: BorderSide(
+                        color: FlutterFlowTheme.of(context).error,
+                        width: 2,
+                      ),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                  ),
+                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        fontFamily: 'Outfit',
+                        color: FlutterFlowTheme.of(context).primaryBtnText,
+                      ),
+                  keyboardType: TextInputType.number,
+                  validator:
+                      _model.textController1Validator.asValidator(context),
+                ),
+              ),
+              Align(
+                alignment: AlignmentDirectional(-1, 0),
+                child: Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
+                  child: TextFormField(
+                    controller: _model.textController2,
+                    autofocus: true,
+                    obscureText: false,
+                    decoration: InputDecoration(
+                      labelText: 'Yaşınızı girin...',
+                      labelStyle: FlutterFlowTheme.of(context).titleMedium,
+                      hintStyle: FlutterFlowTheme.of(context).labelMedium,
+                      enabledBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(
+                          color: FlutterFlowTheme.of(context).alternate,
+                          width: 2,
+                        ),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      focusedBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(
+                          color: FlutterFlowTheme.of(context).primary,
+                          width: 2,
+                        ),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      errorBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(
+                          color: FlutterFlowTheme.of(context).error,
+                          width: 2,
+                        ),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      focusedErrorBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(
+                          color: FlutterFlowTheme.of(context).error,
+                          width: 2,
+                        ),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                    ),
+                    style: FlutterFlowTheme.of(context).titleMedium,
+                    keyboardType: TextInputType.number,
+                    validator:
+                        _model.textController2Validator.asValidator(context),
+                  ),
+                ),
+              ),
+              Align(
+                alignment: AlignmentDirectional(-1, 0),
+                child: Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(8, 0, 8, 0),
+                  child: TextFormField(
+                    controller: _model.textController3,
+                    autofocus: true,
+                    obscureText: false,
+                    decoration: InputDecoration(
+                      labelText: 'Boyunuzu girin...',
+                      labelStyle: FlutterFlowTheme.of(context).titleMedium,
+                      hintStyle: FlutterFlowTheme.of(context).labelMedium,
+                      enabledBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(
+                          color: FlutterFlowTheme.of(context).alternate,
+                          width: 2,
+                        ),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      focusedBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(
+                          color: FlutterFlowTheme.of(context).primary,
+                          width: 2,
+                        ),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      errorBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(
+                          color: FlutterFlowTheme.of(context).error,
+                          width: 2,
+                        ),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      focusedErrorBorder: UnderlineInputBorder(
+                        borderSide: BorderSide(
+                          color: FlutterFlowTheme.of(context).error,
+                          width: 2,
+                        ),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                    ),
+                    style: FlutterFlowTheme.of(context).titleMedium,
+                    keyboardType: TextInputType.number,
+                    validator:
+                        _model.textController3Validator.asValidator(context),
+                  ),
+                ),
+              ),
+              FFButtonWidget(
+                onPressed: () async {
+                  context.pushNamed(
+                    'sayfa3',
+                    extra: <String, dynamic>{
+                      kTransitionInfoKey: TransitionInfo(
+                        hasTransition: true,
+                        transitionType: PageTransitionType.rightToLeft,
+                        duration: Duration(milliseconds: 220),
+                      ),
+                    },
+                  );
+                },
+                text: 'Sıradaki',
+                options: FFButtonOptions(
+                  width: 150,
+                  height: 50,
+                  padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                  iconPadding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                  color: Colors.white,
+                  textStyle:
+                      FlutterFlowTheme.of(context).headlineSmall.override(
+                            fontFamily: 'Outfit',
+                            color: Color(0xFF000502),
+                          ),
+                  elevation: 1,
+                  borderSide: BorderSide(
+                    color: Color(0xFFDBE2E7),
+                    width: 1,
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
